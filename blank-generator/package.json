@@ -1,0 +1,17 @@
+{
+  "name": "pdf-generator",
+  "version": "1.0.0",
+  "description": "Generate valid PDF files of an exact byte size and page size",
+  "main": "index.js",
+  "bin": {
+    "pdf-generator": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "example": "node index.js --size 5MB --pages 3 --page A4 --out output/example.pdf"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
